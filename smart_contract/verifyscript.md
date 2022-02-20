@@ -1,0 +1,1 @@
+npx hardhat verify "{Replace your contract addres}" "{Replace your contructor}" --network rinkeby

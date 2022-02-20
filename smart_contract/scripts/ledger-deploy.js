@@ -21,12 +21,13 @@ async function main() {
 
   console.log("Ledger deployed to:", ledger.address);
 
-  await hre.run("verify:verify", {
-    address: ledger.address,
-    constructorArguments: [
-        "Under The Dev"
-    ]
-  });
+  // Use npx hardhat verify commnad instead
+  // await hre.run("verify:verify", {
+  //   address: ledger.address,
+  //   constructorArguments: [
+  //       "Under The Dev"
+  //   ]
+  // });
 }
 
 // We recommend this pattern to be able to use async/await everywhere
